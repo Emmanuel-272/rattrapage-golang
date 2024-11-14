@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	// Get the arguments passed to the program
+	// On obtient les arguments transmis au prgramme
 	args := os.Args[1:]
 
-	// Print the number of arguments
+	// on imprime le nmbre d'arguments
 	fmt.Println(len(args))
 }
